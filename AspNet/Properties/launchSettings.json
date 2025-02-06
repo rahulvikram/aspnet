@@ -1,4 +1,5 @@
-﻿{
+﻿// These are the visaul studio debug settings for the project
+{
   "$schema": "http://json.schemastore.org/launchsettings.json",
   "iisSettings": {
     "windowsAuthentication": false,
