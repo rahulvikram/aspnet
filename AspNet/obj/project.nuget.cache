@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "47t4s9asCRluRD5bw9yo9wrCX8t8Oi/E2vO7GmwxUusg1oTtZQXNtMuhSe9cknbDpH736tkgD+spHgOVCq3vMA==",
+  "dgSpecHash": "VymozJCZA2E=",
   "success": true,
   "projectFilePath": "C:\\Users\\vikramr\\source\\repos\\AspNet\\AspNet\\AspNet.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\vikramr\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.12\\microsoft.netcore.app.ref.8.0.12.nupkg.sha512",
+    "C:\\Users\\vikramr\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.12\\microsoft.windowsdesktop.app.ref.8.0.12.nupkg.sha512",
+    "C:\\Users\\vikramr\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.12\\microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512",
+    "C:\\Users\\vikramr\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.12\\microsoft.netcore.app.host.win-x64.8.0.12.nupkg.sha512"
+  ],
   "logs": []
 }
