@@ -3,6 +3,8 @@ var builder = WebApplication.CreateBuilder(args); // initialize instance of weba
 // Add services to the container, enabling app to use MVC patterns
 builder.Services.AddControllersWithViews(); // registers MVC services needed for controllers and views
 
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
 var app = builder.Build(); // uses configuration to build webapp instance
 
 // Configure the HTTP request pipeline.
@@ -10,7 +12,7 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
 }
-app.UseStaticFiles(); // enables wwwroot folder usage
+app.MapStaticAssets(); // enables wwwroot folder usage
 
 app.UseRouting(); // enables http request routing
 

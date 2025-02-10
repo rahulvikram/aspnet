@@ -1,4 +1,4 @@
-using AspNet.Models;
+﻿using AspNet.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -31,15 +31,40 @@ namespace AspNet.Controllers
         public IActionResult AboutMe()
         {
             // dictionary of current jobs
-            var jobs = new Dictionary<string, string>
+            var jobs = new Dictionary<string, (string, string)>
             {
-                { "Software Engineer", "OSU CASS" },
-                { "ML Researcher", "STAR Lab" }
+                { "Software Engineer", ("&#128187", "OSU CASS") },
+                { "ML Researcher", ("&#129504", "STAR Lab") }
             };
 
             // ViewBag is a dynamic object that can be used to pass data between the controller and the view at runtime (very similar to Vue.js' props or reactive([]) data)
-            ViewBag.Jobs = jobs;
+            ViewBag.Jobs = jobs; // store jobs dictionary in ViewBag
             return View();
+        }
+
+        [HttpGet("Contact")]
+        public IActionResult Contact()
+        {
+            
+            return View();
+        }
+
+        [HttpPost("Contact")]
+        // Model binding: the process of mapping data from an HTTP request to an object in the application
+        // pass in our ContactViewModel model as a parameter
+        public IActionResult Contact(ContactViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                // Process the contact form submission (e.g., send an email)
+                // For now, just log the message
+                _logger.LogInformation("Contact form submitted by {Name} with message: {Message}", model.Name, model.Message);
+
+                return RedirectToAction("Index"); // redirect to Index.cshtml
+            }
+
+            // if model state is INVALID, just return the view with the model
+            return View(model);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

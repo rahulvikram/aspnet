@@ -1,14 +1,20 @@
-﻿@{
+﻿@using System.Collections.Generic
+@{
     ViewData["Title"] = "About Me";
 
     string name = "Rahul Vikram";
 
+    // retrieve data from the ViewBag from the controller, save it as a dictionary
+    var jobs = ViewBag.jobs as Dictionary<string, (string, string)>;
 }
 
 <h1>@ViewData["Title"]</h1>
 
 <p>Hello! I'm @name! Currently, I am a:</p> 
-    <p>@profession at @company with a passion for [Your Interests].</p>
+@foreach (var job in jobs)
+{
+    <p>@Html.Raw(job.Value.Item1) @job.Key at @job.Value.Item2.</p>
+}
 
 <h2>Background</h2>
 <p>I have a background in [Your Background Information]. Over the years, I have developed skills in [Your Skills].</p>
