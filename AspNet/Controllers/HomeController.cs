@@ -1,4 +1,5 @@
 ﻿using AspNet.Models;
+using AspNet.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -7,11 +8,15 @@ namespace AspNet.Controllers
     public class HomeController : Controller // inherits base class from ASP.NET core 
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IProfileService _profileService;
 
         // Constructor for HomeController
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IProfileService profileService)
         {
+            // Dependency Injection: injects an instance of the logger and profile service into the controller; now our controller depends on these services
+            // here we instantiate the logger and profile service
             _logger = logger;
+            _profileService = profileService;
         }
 
         [HttpGet("")] // flag: attribute routing, when / is requested, this method is called (default route)
@@ -30,15 +35,6 @@ namespace AspNet.Controllers
         [HttpGet("AboutMe")]
         public IActionResult AboutMe()
         {
-            // dictionary of current jobs
-            var jobs = new Dictionary<string, (string, string)>
-            {
-                { "Software Engineer", ("&#128187", "OSU CASS") },
-                { "ML Researcher", ("&#129504", "STAR Lab") }
-            };
-
-            // ViewBag is a dynamic object that can be used to pass data between the controller and the view at runtime (very similar to Vue.js' props or reactive([]) data)
-            ViewBag.Jobs = jobs; // store jobs dictionary in ViewBag
             return View();
         }
 

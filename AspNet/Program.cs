@@ -1,9 +1,16 @@
+using AspNet.Services;
+
 var builder = WebApplication.CreateBuilder(args); // initialize instance of webappbuilder
 
 // Add services to the container, enabling app to use MVC patterns
 builder.Services.AddControllersWithViews(); // registers MVC services needed for controllers and views
 
+// register default and custom defined Services for our app
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
+// Dependency Injection: register services to be used in controllers
+builder.Services.AddSingleton<IProfileService,  ProfileService>();
+
 
 var app = builder.Build(); // uses configuration to build webapp instance
 
