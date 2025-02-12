@@ -1,25 +1,20 @@
 ﻿@using System.Collections.Generic
+@model AspNet.Models.AboutMeViewModel
+
 @{
     ViewData["Title"] = "About Me";
-
-    string name = "Rahul Vikram";
-
-    // retrieve data from the ViewBag from the controller, save it as a dictionary
-    var jobs = ViewBag.jobs as Dictionary<string, (string, string)>;
-    var skills = ViewBag.skills as Dictionary<string, string>;
-    var hobbies = ViewBag.hobbies as List<string>;
 }
 
 <h1>@ViewData["Title"]</h1>
 
-<p>Hello! I'm @name! Currently, I am a:</p> 
-@foreach (var job in jobs)
+<p>Hello! I'm Rahul Vikram! Currently, I am a:</p> 
+@foreach (var job in Model.Jobs)
 {
     <p>@Html.Raw(job.Value.Item1) @job.Key at @job.Value.Item2.</p>
 }
 
 <h2>Skills</h2>
-@foreach (var skill in skills)
+@foreach (var skill in Model.Skills)
 {
     <p><strong>@skill.Key:</strong> @skill.Value</p>
 }
@@ -27,7 +22,7 @@
 <h2>Hobbies</h2>
 <p>In my free time, I enjoy...</p> 
 <ul>
-    @foreach (var hobby in hobbies)
+    @foreach (var hobby in Model.Hobbies)
     {
         <li>@hobby</li>
     }

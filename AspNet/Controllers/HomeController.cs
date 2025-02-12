@@ -35,7 +35,9 @@ namespace AspNet.Controllers
         [HttpGet("AboutMe")]
         public IActionResult AboutMe()
         {
-            return View();
+            // Get the data for the About Me page using the profile service thru dependency injection (DI)
+            var model = _profileService .GetAboutMeData();
+            return View(model);
         }
 
         [HttpGet("Contact")]
@@ -44,6 +46,13 @@ namespace AspNet.Controllers
             
             return View();
         }
+
+        [HttpGet("Marketplace")]
+        public IActionResult Marketplace()
+        {
+            return View();
+        }
+
 
         [HttpPost("Contact")]
         // Model binding: the process of mapping data from an HTTP request to an object in the application
