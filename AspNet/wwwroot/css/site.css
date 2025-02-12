@@ -20,3 +20,8 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.login-btn {
+    font-weight: bold;
+    color: yellow !important;
+}

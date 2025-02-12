@@ -61,6 +61,9 @@ C:\Users\vikramr\source\repos\aspnet\AspNet\wwwroot\lib\bootstrap\dist\css\boots
 wwwroot\css\marketplace.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\img\about.png
+wwwroot\img\contact.png
+wwwroot\img\marketplace.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

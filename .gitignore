@@ -1,3 +1,6 @@
 .vs/
 
 exfiles/
+
+appsettings.Development.json
+appsettings.json

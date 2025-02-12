@@ -20,6 +20,8 @@ namespace AspNet.Controllers
         }
 
         [HttpGet("")] // flag: attribute routing, when / is requested, this method is called (default route)
+        [HttpGet("Home")] // flag: attribute routing, when /Home is requested, this method is called
+        [HttpGet("Index")] // flag: attribute routing, when /Index is requested, this method is called
         public IActionResult Index()
         {
             return View();
@@ -40,6 +42,12 @@ namespace AspNet.Controllers
             return View(model);
         }
 
+        [HttpGet("About")]
+        public IActionResult About()
+        {
+            return RedirectToAction(actionName: "AboutMe", controllerName: "Home");
+        }
+
         [HttpGet("Contact")]
         public IActionResult Contact()
         {
@@ -49,7 +57,7 @@ namespace AspNet.Controllers
         [HttpPost("Contact")]
         // Model binding: the process of mapping data from an HTTP request to an object in the application
         // pass in our ContactViewModel model as a parameter
-        public IActionResult Contact(ContactViewModel model)
+        public RedirectToActionResult Contact(ContactViewModel model)
         {
             if (ModelState.IsValid)
             {
@@ -57,11 +65,11 @@ namespace AspNet.Controllers
                 // For now, just log the message
                 _logger.LogInformation("Contact form submitted by {Name} with message: {Message}", model.Name, model.Message);
 
-                return RedirectToAction("Index"); // redirect to Index.cshtml
+                return RedirectToAction(actionName: "AboutMe", controllerName: "Home");
             }
 
             // if model state is INVALID, just return the view with the model
-            return View(model);
+            return RedirectToAction(actionName: "AboutMe", controllerName: "Home");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

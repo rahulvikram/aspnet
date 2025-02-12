@@ -12,6 +12,18 @@ builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 builder.Services.AddSingleton<IProfileService,  ProfileService>(); // here we use AddSingleton because we only want my profile to be displayed, so a single instance of our service is shared throughout the app's lifetime
 builder.Services.AddScoped<IProductService, ProductService>(); // here we use AddScoped because we want a new instance of our service to be created for each request
 
+// Add authentication with cookie-based authentication, so the browser can remember user sessions
+builder.Services.AddAuthentication("Cookies")
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/login"; // Redirect to login page
+        options.AccessDeniedPath = "/"; // Redirect to home page if access is denied
+    });
+
+// Add authorization services to the app
+builder.Services.AddAuthorization();
+
+
 var app = builder.Build(); // uses configuration to build webapp instance
 
 // Configure the HTTP request pipeline.
@@ -23,6 +35,7 @@ app.MapStaticAssets(); // enables wwwroot folder usage
 
 app.UseRouting(); // enables http request routing
 
+app.UseAuthentication(); // enables user authentication
 app.UseAuthorization(); // enables user authorization
 
 // defines a default route for the app

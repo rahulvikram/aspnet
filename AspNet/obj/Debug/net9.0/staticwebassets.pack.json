@@ -17,6 +17,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\wwwroot\\img\\about.png",
+      "PackagePath": "staticwebassets\\img\\about.png"
+    },
+    {
+      "Id": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\wwwroot\\img\\contact.png",
+      "PackagePath": "staticwebassets\\img\\contact.png"
+    },
+    {
+      "Id": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\wwwroot\\img\\marketplace.png",
+      "PackagePath": "staticwebassets\\img\\marketplace.png"
+    },
+    {
       "Id": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
