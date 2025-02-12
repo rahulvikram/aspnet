@@ -3,7 +3,12 @@
 
 This project makes use of many system design patterns, such as singleton, factory, repository, and dependency injection. It also uses the MVC design pattern to separate concerns and make the codebase more maintainable.
 
-### Screenshots
+### Sample Screenshots
+#### About Me
 ![About](AspNet/wwwroot/img/about.png)
+
+#### Contact Information
 ![Contact](AspNet/wwwroot/img/contact.png)
-![Marketplace](AspNet/wwwroot/img/marketplace.png)]
+
+#### Online Marketplace
+![Marketplace](AspNet/wwwroot/img/marketplace.png)
