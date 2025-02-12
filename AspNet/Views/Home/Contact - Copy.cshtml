@@ -1,0 +1,47 @@
+﻿@using System.Collections.Generic
+@model ContactViewModel
+@{
+    ViewData["Title"] = "Contact Information";
+
+    string email = "vikramr@oregonstate.edu";
+    string github = "https://github.com/rahulvikram/";
+    string linkedin = "https://www.linkedin.com/in/rahul-vikram/";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h3>Email</h3>
+<p><a href="mailto:@email">@email</a></p>
+
+<h3>Github</h3>
+<p><a href="@github">@github</a></p>
+
+<h3>LinkedIn</h3>
+<p><a href="@linkedin">@linkedin</a></p>
+
+<h3>Further Questions?</h3>
+<form asp-action="Contact" method="post"> @* this form will use the HTTP Post method named 'Contact' in HomeController.cs *@
+    @* The asp-for property lets us use MODEL BINDING, where each input is connected to the respective model's properties through the @model ContactViewModel at the top.*@
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email" class="control-label"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Message" class="control-label"></label>
+        <textarea asp-for="Message" class="form-control"></textarea>
+        <span asp-validation-for="Message" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Send" class="btn btn-primary" />
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

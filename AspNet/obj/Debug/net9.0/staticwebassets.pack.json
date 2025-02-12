@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\AspNet.ab2a8pssmp.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\wwwroot\\css\\marketplace.css",
+      "PackagePath": "staticwebassets\\css\\marketplace.css"
+    },
+    {
       "Id": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

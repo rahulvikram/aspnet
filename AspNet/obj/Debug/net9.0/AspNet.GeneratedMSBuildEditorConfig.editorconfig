@@ -24,6 +24,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dE1lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/vikramr/source/repos/aspnet/AspNet/Views/Home/Contact - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0IC0gQ29weS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/vikramr/source/repos/aspnet/AspNet/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,12 +36,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vikramr/source/repos/aspnet/AspNet/Views/Home/Marketplace.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYXJrZXRwbGFjZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/vikramr/source/repos/aspnet/AspNet/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vikramr/source/repos/aspnet/AspNet/Views/Marketplace/Marketplace.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2V0cGxhY2VcTWFya2V0cGxhY2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vikramr/source/repos/aspnet/AspNet/Views/Shared/Error.cshtml]

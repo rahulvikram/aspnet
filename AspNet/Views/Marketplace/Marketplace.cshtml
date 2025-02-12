@@ -1,0 +1,31 @@
+﻿@using System.Collections.Generic
+@model List<Product> // using the Product class from the Models folder
+
+<head>
+    <link rel="stylesheet" href="~/css/marketplace.css">
+</head>
+
+<body>
+    <h1>Online Marketplace</h1>
+    <h3>Welcome to my online marketplace!</h3>
+    <p>Here, you can find a variety of products and services for sale. Check out the categories below.</p>
+
+    <div class="container">
+        <div class="product-grid">
+            @foreach (var product in Model)
+            {
+                <div class="product-card">
+                    <img src="@product.ImageUrl" alt="@product.Name">
+                    <h3>@product.Name</h3>
+                    <p class="price">$@product.Price</p>
+                    <button class="buy-btn">Buy Now</button>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Online Marketplace. All Rights Reserved.</p>
+    </div>
+
+</body>

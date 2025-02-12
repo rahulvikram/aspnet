@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wILSXE1vz9Q2YHPZjDzw4nC1kIafSjpos38ahHRLy+U=",
+  "Hash": "MfLHCqVIZqmdkyq4H6vmMpyQqCiO8BRdjoxcSG7Roi4=",
   "Source": "AspNet",
   "BasePath": "_content/AspNet",
   "Mode": "Default",
@@ -645,6 +645,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\obj\\Debug\\net9.0\\compressed\\jirl7fsgdc-h921l12ztv.gz",
+      "SourceId": "AspNet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/AspNet",
+      "RelativePath": "css/marketplace#[.{fingerprint=h921l12ztv}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\wwwroot\\css\\marketplace.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "z8pn3e0icg",
+      "Integrity": "bcXw5CpICUrGqX6iBljrHEvf5Q23ID8egcZlqBwjYKY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\wwwroot\\css\\marketplace.css"
     },
     {
       "Identity": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\obj\\Debug\\net9.0\\compressed\\kvdb7x557g-6ukhryfubh.gz",
@@ -1338,6 +1359,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AspNet.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\wwwroot\\css\\marketplace.css",
+      "SourceId": "AspNet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\wwwroot\\",
+      "BasePath": "_content/AspNet",
+      "RelativePath": "css/marketplace#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h921l12ztv",
+      "Integrity": "tXqvqZx4WzFVC2tblA5osbknmO/4USC1R0iugPpMvig=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\marketplace.css"
     },
     {
       "Identity": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\wwwroot\\css\\site.css",
@@ -3198,6 +3240,304 @@
       ]
     },
     {
+      "Route": "css/marketplace.css",
+      "AssetFile": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\obj\\Debug\\net9.0\\compressed\\jirl7fsgdc-h921l12ztv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002262443439"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "441"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bcXw5CpICUrGqX6iBljrHEvf5Q23ID8egcZlqBwjYKY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 00:58:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tXqvqZx4WzFVC2tblA5osbknmO/4USC1R0iugPpMvig=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tXqvqZx4WzFVC2tblA5osbknmO/4USC1R0iugPpMvig="
+        }
+      ]
+    },
+    {
+      "Route": "css/marketplace.css",
+      "AssetFile": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\wwwroot\\css\\marketplace.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1120"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tXqvqZx4WzFVC2tblA5osbknmO/4USC1R0iugPpMvig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 00:58:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tXqvqZx4WzFVC2tblA5osbknmO/4USC1R0iugPpMvig="
+        }
+      ]
+    },
+    {
+      "Route": "css/marketplace.css.gz",
+      "AssetFile": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\obj\\Debug\\net9.0\\compressed\\jirl7fsgdc-h921l12ztv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "441"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bcXw5CpICUrGqX6iBljrHEvf5Q23ID8egcZlqBwjYKY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 00:58:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bcXw5CpICUrGqX6iBljrHEvf5Q23ID8egcZlqBwjYKY="
+        }
+      ]
+    },
+    {
+      "Route": "css/marketplace.h921l12ztv.css",
+      "AssetFile": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\obj\\Debug\\net9.0\\compressed\\jirl7fsgdc-h921l12ztv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002262443439"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "441"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bcXw5CpICUrGqX6iBljrHEvf5Q23ID8egcZlqBwjYKY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 00:58:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tXqvqZx4WzFVC2tblA5osbknmO/4USC1R0iugPpMvig=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h921l12ztv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/marketplace.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tXqvqZx4WzFVC2tblA5osbknmO/4USC1R0iugPpMvig="
+        }
+      ]
+    },
+    {
+      "Route": "css/marketplace.h921l12ztv.css",
+      "AssetFile": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\wwwroot\\css\\marketplace.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1120"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tXqvqZx4WzFVC2tblA5osbknmO/4USC1R0iugPpMvig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 00:58:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h921l12ztv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/marketplace.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tXqvqZx4WzFVC2tblA5osbknmO/4USC1R0iugPpMvig="
+        }
+      ]
+    },
+    {
+      "Route": "css/marketplace.h921l12ztv.css.gz",
+      "AssetFile": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\obj\\Debug\\net9.0\\compressed\\jirl7fsgdc-h921l12ztv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "441"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bcXw5CpICUrGqX6iBljrHEvf5Q23ID8egcZlqBwjYKY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 00:58:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h921l12ztv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/marketplace.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bcXw5CpICUrGqX6iBljrHEvf5Q23ID8egcZlqBwjYKY="
+        }
+      ]
+    },
+    {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "C:\\Users\\vikramr\\source\\repos\\aspnet\\AspNet\\obj\\Debug\\net9.0\\compressed\\lndploq38y-c2tiyv64ts.gz",
       "Selectors": [
@@ -3222,7 +3562,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 18:58:02 GMT"
+          "Value": "Wed, 12 Feb 2025 00:44:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3283,7 +3623,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 18:58:02 GMT"
+          "Value": "Wed, 12 Feb 2025 00:44:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3328,7 +3668,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 18:58:02 GMT"
+          "Value": "Wed, 12 Feb 2025 00:44:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3383,7 +3723,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 18:58:02 GMT"
+          "Value": "Wed, 12 Feb 2025 00:44:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3436,7 +3776,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 18:58:02 GMT"
+          "Value": "Wed, 12 Feb 2025 00:44:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3473,7 +3813,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 18:58:02 GMT"
+          "Value": "Wed, 12 Feb 2025 00:44:33 GMT"
         },
         {
           "Name": "Cache-Control",

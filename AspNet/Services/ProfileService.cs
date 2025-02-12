@@ -23,7 +23,7 @@ namespace AspNet.Services
                 },
                 Hobbies = new List<string>
                 {
-                    "Hiking", "Photography", "Drone Flying", "Watching Movies", "Playing GTA"
+                    "Hiking", "Photography", "Drone Flying",
                 }
             };
         }

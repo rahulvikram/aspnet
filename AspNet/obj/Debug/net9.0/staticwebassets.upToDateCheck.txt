@@ -27,6 +27,7 @@ C:\Users\vikramr\source\repos\aspnet\AspNet\wwwroot\lib\bootstrap\dist\css\boots
 C:\Users\vikramr\source\repos\aspnet\AspNet\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
 C:\Users\vikramr\source\repos\aspnet\AspNet\wwwroot\lib\jquery\dist\jquery.js
 C:\Users\vikramr\source\repos\aspnet\AspNet\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+C:\Users\vikramr\source\repos\aspnet\AspNet\wwwroot\css\marketplace.css
 C:\Users\vikramr\source\repos\aspnet\AspNet\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 C:\Users\vikramr\source\repos\aspnet\AspNet\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 C:\Users\vikramr\source\repos\aspnet\AspNet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -57,6 +58,7 @@ C:\Users\vikramr\source\repos\aspnet\AspNet\wwwroot\lib\jquery-validation\dist\a
 C:\Users\vikramr\source\repos\aspnet\AspNet\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
 C:\Users\vikramr\source\repos\aspnet\AspNet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
 C:\Users\vikramr\source\repos\aspnet\AspNet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\css\marketplace.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js

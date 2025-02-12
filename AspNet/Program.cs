@@ -9,8 +9,8 @@ builder.Services.AddControllersWithViews(); // registers MVC services needed for
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 // Dependency Injection: register services to be used in controllers
-builder.Services.AddSingleton<IProfileService,  ProfileService>();
-
+builder.Services.AddSingleton<IProfileService,  ProfileService>(); // here we use AddSingleton because we only want my profile to be displayed, so a single instance of our service is shared throughout the app's lifetime
+builder.Services.AddScoped<IProductService, ProductService>(); // here we use AddScoped because we want a new instance of our service to be created for each request
 
 var app = builder.Build(); // uses configuration to build webapp instance
 

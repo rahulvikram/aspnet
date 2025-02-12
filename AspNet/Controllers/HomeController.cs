@@ -43,16 +43,8 @@ namespace AspNet.Controllers
         [HttpGet("Contact")]
         public IActionResult Contact()
         {
-            
             return View();
         }
-
-        [HttpGet("Marketplace")]
-        public IActionResult Marketplace()
-        {
-            return View();
-        }
-
 
         [HttpPost("Contact")]
         // Model binding: the process of mapping data from an HTTP request to an object in the application

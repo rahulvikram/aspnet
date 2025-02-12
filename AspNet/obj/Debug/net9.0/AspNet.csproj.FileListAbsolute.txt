@@ -432,3 +432,4 @@ C:\Users\vikramr\source\repos\aspnet\AspNet\obj\Debug\net9.0\refint\AspNet.dll
 C:\Users\vikramr\source\repos\aspnet\AspNet\obj\Debug\net9.0\AspNet.pdb
 C:\Users\vikramr\source\repos\aspnet\AspNet\obj\Debug\net9.0\AspNet.genruntimeconfig.cache
 C:\Users\vikramr\source\repos\aspnet\AspNet\obj\Debug\net9.0\ref\AspNet.dll
+C:\Users\vikramr\source\repos\aspnet\AspNet\obj\Debug\net9.0\compressed\jirl7fsgdc-h921l12ztv.gz

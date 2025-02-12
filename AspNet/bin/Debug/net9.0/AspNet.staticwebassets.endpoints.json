@@ -301,6 +301,304 @@
       ]
     },
     {
+      "Route": "css/marketplace.css",
+      "AssetFile": "css/marketplace.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002262443439"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "441"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bcXw5CpICUrGqX6iBljrHEvf5Q23ID8egcZlqBwjYKY=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tXqvqZx4WzFVC2tblA5osbknmO/4USC1R0iugPpMvig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 00:58:31 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tXqvqZx4WzFVC2tblA5osbknmO/4USC1R0iugPpMvig="
+        }
+      ]
+    },
+    {
+      "Route": "css/marketplace.css",
+      "AssetFile": "css/marketplace.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1120"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tXqvqZx4WzFVC2tblA5osbknmO/4USC1R0iugPpMvig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 00:58:31 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tXqvqZx4WzFVC2tblA5osbknmO/4USC1R0iugPpMvig="
+        }
+      ]
+    },
+    {
+      "Route": "css/marketplace.css.gz",
+      "AssetFile": "css/marketplace.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "441"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bcXw5CpICUrGqX6iBljrHEvf5Q23ID8egcZlqBwjYKY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 00:58:31 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bcXw5CpICUrGqX6iBljrHEvf5Q23ID8egcZlqBwjYKY="
+        }
+      ]
+    },
+    {
+      "Route": "css/marketplace.h921l12ztv.css",
+      "AssetFile": "css/marketplace.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002262443439"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "441"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bcXw5CpICUrGqX6iBljrHEvf5Q23ID8egcZlqBwjYKY=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tXqvqZx4WzFVC2tblA5osbknmO/4USC1R0iugPpMvig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 00:58:31 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h921l12ztv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tXqvqZx4WzFVC2tblA5osbknmO/4USC1R0iugPpMvig="
+        },
+        {
+          "Name": "label",
+          "Value": "css/marketplace.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/marketplace.h921l12ztv.css",
+      "AssetFile": "css/marketplace.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1120"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tXqvqZx4WzFVC2tblA5osbknmO/4USC1R0iugPpMvig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 00:58:31 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h921l12ztv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tXqvqZx4WzFVC2tblA5osbknmO/4USC1R0iugPpMvig="
+        },
+        {
+          "Name": "label",
+          "Value": "css/marketplace.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/marketplace.h921l12ztv.css.gz",
+      "AssetFile": "css/marketplace.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "441"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bcXw5CpICUrGqX6iBljrHEvf5Q23ID8egcZlqBwjYKY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 00:58:31 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h921l12ztv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bcXw5CpICUrGqX6iBljrHEvf5Q23ID8egcZlqBwjYKY="
+        },
+        {
+          "Name": "label",
+          "Value": "css/marketplace.css.gz"
+        }
+      ]
+    },
+    {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "css/site.css.gz",
       "Selectors": [
@@ -341,7 +639,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 18:58:02 GMT"
+          "Value": "Wed, 12 Feb 2025 00:44:33 GMT"
         },
         {
           "Name": "Vary",
@@ -390,7 +688,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 18:58:02 GMT"
+          "Value": "Wed, 12 Feb 2025 00:44:33 GMT"
         }
       ],
       "EndpointProperties": [
@@ -439,7 +737,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 18:58:02 GMT"
+          "Value": "Wed, 12 Feb 2025 00:44:33 GMT"
         },
         {
           "Name": "Vary",
@@ -502,7 +800,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 18:58:02 GMT"
+          "Value": "Wed, 12 Feb 2025 00:44:33 GMT"
         },
         {
           "Name": "Vary",
@@ -543,7 +841,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 18:58:02 GMT"
+          "Value": "Wed, 12 Feb 2025 00:44:33 GMT"
         }
       ],
       "EndpointProperties": [
@@ -584,7 +882,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 18:58:02 GMT"
+          "Value": "Wed, 12 Feb 2025 00:44:33 GMT"
         },
         {
           "Name": "Vary",
