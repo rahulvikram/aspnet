@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AspNet
 build_property.RootNamespace = AspNet
-build_property.ProjectDir = C:\Users\vikramr\source\repos\AspNet\AspNet\
+build_property.ProjectDir = C:\Users\vikramr\source\repos\aspnet\AspNet\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\vikramr\source\repos\AspNet\AspNet
+build_property.MSBuildProjectDirectory = C:\Users\vikramr\source\repos\aspnet\AspNet
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/vikramr/source/repos/AspNet/AspNet/Views/Home/AboutMe.cshtml]
+[C:/Users/vikramr/source/repos/aspnet/AspNet/Views/Home/AboutMe.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dE1lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vikramr/source/repos/AspNet/AspNet/Views/Home/Contact.cshtml]
+[C:/Users/vikramr/source/repos/aspnet/AspNet/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vikramr/source/repos/AspNet/AspNet/Views/Home/Index.cshtml]
+[C:/Users/vikramr/source/repos/aspnet/AspNet/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vikramr/source/repos/AspNet/AspNet/Views/Home/Marketplace.cshtml]
+[C:/Users/vikramr/source/repos/aspnet/AspNet/Views/Home/Marketplace.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYXJrZXRwbGFjZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vikramr/source/repos/AspNet/AspNet/Views/Home/Privacy.cshtml]
+[C:/Users/vikramr/source/repos/aspnet/AspNet/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vikramr/source/repos/AspNet/AspNet/Views/Shared/Error.cshtml]
+[C:/Users/vikramr/source/repos/aspnet/AspNet/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vikramr/source/repos/AspNet/AspNet/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/vikramr/source/repos/aspnet/AspNet/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vikramr/source/repos/AspNet/AspNet/Views/_ViewImports.cshtml]
+[C:/Users/vikramr/source/repos/aspnet/AspNet/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vikramr/source/repos/AspNet/AspNet/Views/_ViewStart.cshtml]
+[C:/Users/vikramr/source/repos/aspnet/AspNet/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vikramr/source/repos/AspNet/AspNet/Views/Shared/_Layout.cshtml]
+[C:/Users/vikramr/source/repos/aspnet/AspNet/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qw3mnjyehq
