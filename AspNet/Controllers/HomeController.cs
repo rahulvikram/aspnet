@@ -38,7 +38,7 @@ namespace AspNet.Controllers
         public IActionResult AboutMe()
         {
             // Get the data for the About Me page using the profile service thru dependency injection (DI)
-            var model = _profileService .GetAboutMeData();
+            var model = _profileService.GetAboutMeData();
             return View(model);
         }
 
