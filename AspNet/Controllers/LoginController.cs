@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authentication;
+﻿using AspNet.Models;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
@@ -6,26 +7,26 @@ namespace AspNet.Controllers
 {
     public class LoginController : Controller
     {
-        [HttpGet]
+        [HttpGet("Index")]
         public IActionResult Index()
         {
             return View();
         }
 
-        [HttpPost] // this action method parses the form data and logs the user in
-        public async Task<IActionResult> Index(string username, string password)
+        [HttpPost("Index")] // this action method parses the form data and logs the user in
+        public async Task<IActionResult> Index(LoginModel req)
         {
             // ensures that the username and password are not empty
-            if (!string.IsNullOrEmpty(username) && !string.IsNullOrEmpty(password))
+            if (!string.IsNullOrEmpty(req.Username) && !string.IsNullOrEmpty(req.Password))
             {
                 // Validate username and password
-                if (username == "admin" && password == "password") 
+                if (req.Username == "admin" && req.Password == "password") 
                 {
                     // create a list of claims for the user 
                     // claim: k-v pair that represents user info (user and pass)
                     var claims = new List<Claim>
                     {
-                        new Claim(ClaimTypes.Name, username)
+                        new Claim(ClaimTypes.Name, req.Username)
                     };
 
                     // this object represents the user's identity, specified Cookies as the authentication type
@@ -50,7 +51,7 @@ namespace AspNet.Controllers
                 }
             }
 
-            return View();
+            return View(req);
         }
     }
 }

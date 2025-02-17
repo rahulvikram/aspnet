@@ -11,7 +11,7 @@
 <h1>@ViewData["Title"]</h1>
 
 <h3>Email</h3>
-<p><a href="mailto:@email">@email</a></p>
+<p><a href=$"mailto:{@email}">@email</a></p>
 
 <h3>Github</h3>
 <p><a href="@github">@github</a></p>
@@ -41,6 +41,8 @@
         <input type="submit" value="Send" class="btn btn-primary" />
     </div>
 </form>
+
+@await Html.PartialAsync("Partials/_MyPartial");
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />

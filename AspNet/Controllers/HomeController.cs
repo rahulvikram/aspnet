@@ -21,7 +21,6 @@ namespace AspNet.Controllers
 
         [HttpGet("")] // flag: attribute routing, when / is requested, this method is called (default route)
         [HttpGet("Home")] // flag: attribute routing, when /Home is requested, this method is called
-        [HttpGet("Index")] // flag: attribute routing, when /Index is requested, this method is called
         public IActionResult Index()
         {
             return View();
